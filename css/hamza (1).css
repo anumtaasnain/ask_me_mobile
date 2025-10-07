@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: select;
+    justify-content: center;
+    align-items: center;
+    background-image: url(phonepic.jpeg);
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+}
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba( green, blue, alpha);
+}
+section{
+    position: relative;
+    z-index: 3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section-header{
+    margin-bottom: 50px;
+    text-align: center;   
+}
+.section-header h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.section-header p{
+    color: #fff;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-info{
+    width: 50%;
+}
+.contact-info-item{
+    display: flex;
+    margin-bottom: 30pcx;
+}
+.contact-info-item{
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+.contact-info-icon i{
+    font-size: 30px;
+    line-height: 70px;
+}
+.contact-info-content{
+    margin-left: 20px;
+}
+.contact-info-content h4{
+    color: #1da9c0;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+.contact-info-content p{
+    color: #fff;
+    font-size: 1em;
+}
+.contact-form{
+    background-color: #fff;
+    padding: 50px;
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.contact-form-h2{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.contact-form-input-box{
+    position: relative;
+    width: 100px;
+    margin-top: 10px;
+}
+.contact-form-input-box-input,.contact-foam-input-box-textaria{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;outline: none;
+    resize: none;
+}
+.contact-form.span{
+    position: relative;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

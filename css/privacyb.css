@@ -1,0 +1,20 @@
+.banner{
+    background-image: url(../images/privacy\ policy\ 1.2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.col1{
+    text-align: center;
+}
+.img-fluid{
+    height:200px;
+    border-radius: 20px;
+
+}
+.abc{
+    text-align: center;
+    padding-top: 100px;
+}
